@@ -1,0 +1,155 @@
+@charset "utf-8";
+* {margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6 {
+font-family:A Pompadour Bold Sample, sans-serif;}
+
+p { font-family:Louis George Café Light, sans-serif;}
+
+/*----- ESTILOS DEL BANNER Y VIDEO -----*/
+body{ background-image:url(../imagenes%20web/fondocel.png);
+background-size:100%;
+}
+
+#banner { width:100%;
+	height:50vh;
+	position:relative;
+	overflow:hidden;
+	z-index:-1000;
+ }
+ 
+  .bannerimg { width:100%; 
+  	height:50vh;
+  }
+   
+   #banner .contenedor { position:absolute;
+   		top: 17%;
+		left: 30%;
+	}
+   
+  .bannerlogo { width:40%;
+  	height:40%;
+   } 
+   
+/*---ESTILOS RESPONSIVE---PEQUEÑO 500PX  ---ESTILOS RESPONSIVE---ESTILOS RESPONSIVE---*/
+@media screen and (min-width:360px) and (max-width:767px){
+
+body{ background-image:url(../imagenes%20web/fondotablet.png);
+	background-size:100%;
+}
+#banner { width:100%;
+	height:50vh;
+	position:relative;
+	overflow:hidden;
+	z-index:-1000;
+ }
+ 
+  .bannerimg { width:100%; 
+ 	height:50vh;
+  }
+   
+   #banner .contenedor { position:absolute;
+   		top: 15%;
+		left: 35%;
+	}
+	
+	.bannerlogo { width:30%;}
+
+} /*<--| AQUI FINALIZA EL PEQUEÑO 500PX --*/
+
+/*--- ESTILO RESPONISVE --- TABLET --- ESTILO RESPONSIVE --- ESTILO RESPONSIVE ---*/
+@media screen and (min-width:768px) and (max-width:1023px) {
+body{ background-image:url(../imagenes%20web/fondotablet.png);
+	background-size:100%;
+}
+#banner { width:100%;
+	height:70vh;
+	position:relative;
+	overflow:hidden;
+	z-index:-1000;
+ }
+ 
+  .bannerimg { width:100%; 
+ 	height:71vh;
+  }
+   
+   #banner .contenedor { position:absolute;
+   		top: 15%;
+		left: 35%;
+	}
+	
+	.bannerlogo { width:30%;}
+	
+} /*<--! AQUI FINALIZA EL MEDIA TABLE ----*/
+
+/*--- ESTILO RESPONISVE --- PORTATIL --- ESTILO RESPONSIVE --- ESTILO RESPONSIVE ---*/
+@media screen and (min-width:1024px) and (max-width:1279px) {
+body{ background-image:url(../imagenes%20web/fondoportatil.png);
+background-size:100%;
+}
+#banner { width:100%;
+	height:100vh;
+	position:relative;
+	overflow:hidden;
+	z-index:-1000;
+ }
+ 
+ .bannerimg { width:100%; 
+ 	height:100vh;
+ }
+  
+  #banner .contenedor { position:absolute;
+   		top: 20%;
+		left: 37%;
+  }
+  
+  .bannerlogo { width:30%;}
+
+} /*<--! AQUI FINALIZA EL MEDIA PORTATIL*/
+
+
+/*-- ESTILO RESPONISVE --- PC ESCRITORIO --- ESTILO RESPONSIVE --- ESTILO RESPONSIVE --*/
+
+@media screen and (min-width:1280px) and (max-width:1439px) {
+body{ background-image:url(../imagenes%20web/fondoescritorio.png);
+background-size:100%;
+}
+#banner { width:100%;
+	height:100vh;
+	position:relative;
+	overflow:hidden;
+	z-index:-1000;
+ }
+ 
+ .bannerimg { width:100%;
+ 	height:120vh;}
+  
+  #banner .contenedor { position:absolute;
+   		top: 20%;
+		left: 37%;
+  }
+  
+ .bannerlogo { width:27%;}
+
+} /*<--! AQUI FINALIZA EL MEDIA PC ESCRITORIO*/
+
+
+/*-- ESTILO RESPONISVE --- 1440 GRANDE --- ESTILO RESPONSIVE --- ESTILO RESPONSIVE --*/
+
+@media screen and (min-width:1440px) and (max-width:1600px){
+body{ background-image:url(../imagenes%20web/fondogrande.png);
+background-size:100%;
+}
+	#banner { height:100vh; }
+
+	.bannerimg { width:100%;
+		height:100vh;
+	}
+	
+	#banner .contenedor { position:absolute;
+   		top: 20%;
+		left: 35%;
+  }
+	
+	.bannerlogo { width:30%;}
+
+} /*<--! AQUI FINALIZA EL MEDIA 1440 GRANDE*/

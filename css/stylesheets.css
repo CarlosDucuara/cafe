@@ -1,0 +1,513 @@
+@charset "utf-8";
+
+@import url(bannerstyle.css);
+@import url(sectionmejorcafe.css);
+@import url(sectionacercade.css);
+@import url(sectionproceso.css);
+@import url(sectioncontacto.css);
+@import url(footer.css);
+
+* {margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6 {
+font-family:A Pompadour Bold Sample, sans-serif;}
+
+p { font-family:Louis George Café Light, sans-serif;}
+
+/*------ BOTON ARRIBA ------*/
+
+.icon-up { display:none;
+	padding:10px;
+	background:#7C4949;				
+	font-size:10px;					
+	cursor:pointer;
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	border-radius:25px;
+	color:#FFF;
+}
+
+.icon-up:hover {transition: ease .6s;
+	background:#FFF;
+	color:#7C4949;
+	border:1px solid #7C4949;
+	}
+
+/*------ ESTILOS HEADER ------*/
+.contenedor { width:95%;}
+
+.header { width:100%;
+	height:60px;
+	position:fixed;
+	transition:all 1s ease;
+}
+
+  .logo { width:35px;
+	height:50px;
+	margin:5px;
+	visibility:hidden;
+   }
+  
+  .wrapper{ width:90%;
+  	max-width:1000px;
+	margin:auto;
+	overflow:hidden;
+   }
+  
+  .header .contenedor { display:flex;
+  	justify-content:space-between;
+  }
+  
+  .icon-menu { display:block;
+  	width:40px;
+	height:40px;
+	margin:5px;
+	font-size:30px;
+	color:#FFF;
+	text-align:center;
+	line-height:40px;
+	margin-left:auto;
+	cursor:pointer;
+  }
+  
+/*------ ESTILOS DEL MENU ------*/
+
+  .nav { position:absolute;
+  	top:60px;
+	left:-100%;
+	width:100%;
+	transition:all 0.4s;
+  }
+  
+  .menu { list-style:none;
+  }
+  
+  .link { display:block;
+  	padding:20px;
+	background:#7C4949;
+	border-bottom:#fff 1px solid;
+	text-decoration:none;
+	text-align:center;
+	color:#FFF;
+	font-family:A Pompadour Bold Sample, sans-serif;
+	font-size:15px;
+   }
+   
+   .link:hover { background:#FFF;
+	   color:#7C4949;
+	   border-bottom:#7C4949 1px solid;
+	}
+	
+	.mostrar { left:0;
+		}
+		
+/*---------- AQUI SE HACE EL HEADER MÁS DINAMICO CEL ----------*/
+
+.header2 { width:100%;
+	height:60px;
+	background:#7C4949;
+	transition:all 1s ease;
+}
+
+.header2 .logo { width:35px;
+	height:50px;
+	margin:5px;
+	visibility:visible;
+}
+		
+/*---ESTILOS RESPONSIVE--- TABLET ---ESTILOS RESPONSIVE---ESTILOS RESPONSIVE---*/
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+/*------ BOTON ARRIBA ------*/
+
+.icon-up { display:none;
+	padding:20px;
+	background:#7C4949;
+	font-size:20px;
+	cursor:pointer;
+	position:fixed;
+	bottom:20px;
+	right:25px;
+	border-radius:50px;
+	color:#FFF;
+}
+
+.icon-up:hover {transition: ease .6s;
+	background:#FFF;
+	color:#7C4949;
+	border:1px solid #7C4949;}
+
+/*------ ESTILOS HEADER TABLET ------*/	
+.header { width:100%;
+	height:80px;
+	position:fixed;
+	transition:all 1s ease;
+}
+	
+	.logo { width:50px;
+		height:70px;
+		margin:5px;
+		visibility:hidden;
+	}
+	
+	.wrapper{ width:90%;
+  		max-width:1000px;
+		margin:auto;
+		overflow:hidden;
+    }
+  
+    .header .contenedor { display:flex;
+  		justify-content:space-between;
+    }
+  
+    .icon-menu { display:block;
+  		width:70px;
+		height:48px;
+		margin:5px;
+		padding:10px;
+		font-size:50px;
+		color:#FFF;
+		text-align:center;
+		line-height:40px;
+		margin-left:auto;
+		cursor:pointer;
+    }
+
+/*------ ESTILOS DEL MENU ------*/
+
+  	.nav { position:absolute;
+  		top:80px;
+		left:-100%;
+		width:100%;
+		transition:all 0.4s;
+  }	
+  
+  .menu { list-style:none;
+  }
+  
+  .link { display:block;
+  	padding:30px;
+	background:#7C4949;
+	border-bottom:#fff 1px solid;
+	text-decoration:none;
+	text-align:center;
+	color:#FFF;
+	font-family:A Pompadour Bold Sample, sans-serif;
+	font-size:20px;
+   }
+   
+   .link:hover { background:#FFF;
+	   color:#7C4949;
+	   border-bottom:#7C4949 1px solid;
+	}
+	
+	.mostrar { left:0;
+		}
+  
+/* ---- TABLET ---- AQUI SE HACE EL HEADER MÁS DINAMICO PARA TABLET -------- */
+	
+	.header2 { width:100%;
+		height:80px;
+		backgorund:#461718;
+		position:fixed;
+		transition:all 1s ease
+	}
+	
+	.header2 .logo { width:50px;
+		height:70px;
+		margin:5px;
+		visibility:visible;
+	}
+	
+	
+} /*<---| AQUI FINALIZA EL MEDIA TABLET --------- */
+
+
+/*--- RESPONSIVE --- PORTATIL --- RESPONSIVE --- RESPONSIVE --- RESPONSIVE ---*/
+@media screen and (min-width:1024px) and (max-width:1279px) { 
+
+/*------ BOTON ARRIBA ------*/
+
+	.icon-up { display:none;
+		padding:20px;
+		background:#7C4949;
+		font-size:20px;
+		cursor:pointer;
+		position:fixed;
+		bottom:20px;
+		right:25px;
+		border-radius:50px;
+		color:#FFF;
+	}
+
+	.icon-up:hover {transition: ease .6s;
+		background:#FFF;
+		color:#7C4949;
+		border:1px solid #7C4949;
+	}
+	
+/*------ ESTILOS HEADER PORTATIL ------*/	
+.header { width:100%;
+	height:67px;
+	position:fixed;
+	transition:all 1s ease;
+}
+	
+	.logo { width:50px;
+		height:75px;
+		margin:5px;
+		visibility:hidden;
+	}
+	
+	.wrapper{ width:90%;
+  		max-width:1000px;
+		margin:auto;
+		overflow:hidden;
+    }
+  
+    .header .contenedor { display:flex;
+  		justify-content:space-between;
+    }
+  
+    .icon-menu { display:none;
+    }
+	
+/*------ ESTILOS DEL MENU ------*/
+	
+	.nav { position:static;
+		width:auto;
+	}
+	
+	.menu { display:flex;
+	 }
+	
+	.link { padding:10px 50px;
+		background:none;
+		border-bottom:none;
+		text-decoration:none;
+		text-align:center;
+		font-family:A Pompadour Bold Sample, sans-serif;
+		font-size:23px;
+		color:#FFF;
+		font-weight:bold;
+		line-height:normal;
+		margin:10px 0
+	 }
+	 
+	 .link:hover { background:#FFF;
+	   color:#461718;
+	   border-right:none;
+	   border-bottom:none;
+	   border-radius:50px;
+	}
+	
+/* ---- PORTATIL ---- AQUI SE HACE EL HEADER MÁS DINAMICO PARA PORTATIL -------- */
+	
+	.header2 { width:100%;
+		height:67px;
+		backgorund:#461718;
+		position:fixed;
+		transition:all 1s ease
+	}
+	
+	.header2 .logo { width:39px;
+		height:55px;
+		margin:5px;
+		visibility:visible;
+	}
+	
+} /*<---| AQUI FINALIZA EL MEDIA PORTATIL --------- */
+
+
+/*--- RESPONSIVE --- PC ESCRITORIO --- RESPONSIVE --- RESPONSIVE --- RESPONSIVE ---*/
+@media screen and (min-width:1280px) and (max-width:1439px) { 
+
+/*------ BOTON ARRIBA ------*/
+
+	.icon-up { display:none;
+		padding:20px;
+		background:#7C4949;
+		font-size:20px;
+		cursor:pointer;
+		position:fixed;
+		bottom:20px;
+		right:25px;
+		border-radius:50px;
+		color:#FFF;
+	}
+
+	.icon-up:hover {transition: ease .6s;
+		background:#FFF;
+		color:#7C4949;
+		border:1px solid #7C4949;
+	}
+	
+/*------ ESTILOS HEADER PC ESCRITORIO ------*/	
+.header { width:100%;
+	height:100px;
+	position:fixed;
+	transition:all 1s ease;
+}
+	
+	.logo { width:63px;
+		height:88px;
+		margin:5px;
+		visibility:hidden;
+	}
+	
+	.wrapper{ width:90%;
+  		max-width:1000px;
+		margin:auto;
+		overflow:hidden;
+    }
+  
+    .header .contenedor { display:flex;
+  		justify-content:space-between;
+    }
+  
+    .icon-menu { display:none;
+    }
+	
+/*------ ESTILOS DEL MENU PC ESCRITORIO ------*/
+	
+	.nav { position:static;
+		width:auto;
+	}
+	
+	.menu { display:flex;
+	 }
+	
+	.link { padding:10px 50px;
+		background:none;
+		border-bottom:none;
+		text-decoration:none;
+		text-align:center;
+		font-family:A Pompadour Bold Sample, sans-serif;
+		font-size:25px;
+		color:#FFF;
+		font-weight:bold;
+		line-height:normal;
+		margin:25px 0;
+	 }
+	 
+	 .link:hover { background:#FFF;
+	   color:#461718;
+	   border-right:none;
+	   border-bottom:none;
+	   border-radius:50px; 
+	 }
+	
+/* --- PC ESCRITORIO --- AQUI SE HACE EL HEADER MÁS DINAMICO PARA PC ESCRITORIO ------- */
+	
+	.header2 { width:100%;
+		height:100px;
+		backgorund:#461718;
+		position:fixed;
+		transition:all 1s ease
+	}
+	
+	.header2 .logo { width:63px;
+		height:88px;
+		margin:5px;
+		visibility:visible;
+	}
+	
+} /*<---| AQUI FINALIZA EL MEDIA DE PC ESCRITORIO --------- */
+
+
+/*--- RESPONSIVE --- 1440 GRANDE --- RESPONSIVE --- RESPONSIVE --- RESPONSIVE ---*/
+@media screen and (min-width:1440px) and (max-width:1600px) {
+	
+/*------ BOTON ARRIBA ------*/
+
+	.icon-up { display:none;
+		padding:20px;
+		background:#7C4949;
+		font-size:20px;
+		cursor:pointer;
+		position:fixed;
+		bottom:20px;
+		right:25px;
+		border-radius:50px;
+		color:#FFF;
+	}
+
+	.icon-up:hover {transition: ease .6s;
+		background:#FFF;
+		color:#7C4949;
+		border:1px solid #7C4949;
+	}
+	
+/*------ ESTILOS HEADER 1440 GRANDE ------*/
+.header { width:100%;
+	height:100px;
+	position:fixed;
+	transition:all 1s ease;
+}
+	
+	.logo { width:63px;
+		height:88px;
+		margin:5px;
+		visibility:hidden;
+	}
+	
+	.wrapper{ width:90%;
+  		max-width:1000px;
+		margin:auto;
+		overflow:hidden;
+    }
+  
+    .header .contenedor { display:flex;
+  		justify-content:space-between;
+    }
+  
+    .icon-menu { display:none;
+    }
+	
+/*------ ESTILOS DEL MENU PC ESCRITORIO ------*/
+	
+	.nav { position:static;
+		width:auto;
+	}
+	
+	.menu { display:flex;
+	 }
+	 
+
+	.link { padding:10px 50px;
+		background:none;
+		border-bottom:none;
+		text-decoration:none;
+		text-align:center;
+		font-family:A Pompadour Bold Sample, sans-serif;
+		font-size:30px;
+		color:#FFF;
+		font-weight:bold;
+		line-height:normal;
+		margin:22px 0;
+	 }
+	 
+	 .link:hover { background:#FFF;
+	   color:#461718;
+	   border-right:none;
+	   border-bottom:none;
+	   border-radius:50px; 
+	 }
+	
+/* --- 1440 GRANDE --- AQUI SE HACE EL HEADER MÁS DINAMICO PARA 1440 GRANDE------- */
+	
+	.header2 { width:100%;
+		height:100px;
+		backgorund:#461718;
+		position:fixed;
+		transition:all 1s ease
+	}
+	
+	.header2 .logo { width:63px;
+		height:88px;
+		margin:5px;
+		visibility:visible;
+	}
+	
+} /*<--! AQUI FINALIZA LE MEDIA DE 1440 GRANDE */

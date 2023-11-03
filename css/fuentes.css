@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+@font-face { font-family:A Pompadour Bold Sample;
+	src:url(../fuentes/03_APompadourBoldSample.otf);
+}
+
+@font-face { font-family:Louis George Café Light;
+	src:url(../fuentes/Louis%20George%20Cafe%20Light.ttf);
+}
+
+* {margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6 {
+font-family:A Pompadour Bold Sample, sans-serif;}
+
+p { font-family:Louis George Café Light, sans-serif;}

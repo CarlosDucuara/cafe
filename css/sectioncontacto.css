@@ -1,0 +1,839 @@
+@charset "utf-8";
+* {margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6 {
+font-family:A Pompadour Bold Sample, sans-serif;}
+
+p { font-family:Louis George Café Light, sans-serif;}
+
+/* ---------- ESTILOS DE CONTACTO ---------- */
+
+#Contacto{ width:100%;
+	height:auto;
+	position:relative;
+	overflow:hidden;
+	z-index:-1000;
+}
+	
+  .Ctitle{ width:100%;
+		height:118px;
+		background-image:url(../imagenes%20web/contactocel.jpg);
+		background-size:100%;
+   }
+	
+	 .Ctitulo{ font-size:20px;
+		color:#FFF;
+		padding:15% 32%;
+	 }
+	 
+ .sociales{ width:100%;
+ 		height:110px;
+		font-size:30px;
+		color:#164225;
+		text-align:center;
+		padding:13px  10px;
+		box-sizing:border-box;
+ }
+ 
+ 	.rd1{ width: 100%;
+		height: 85px;
+	}
+	
+		.tel{ width: 40%;
+			height: 85px;
+			float:left;
+		}
+		
+			.num{ font-size:16px;
+				font-weight:bold;
+				color:#000;
+				text-align:center;
+			}
+			
+		.mail{ width: 60%;
+			height: 85px;
+			float:right;
+		}
+		
+			.meil{ font-size:16px;
+				font-weight:bold;
+				color:#000;
+				text-align:center;
+			}
+		
+	form{ width:100%;
+		height:290px;
+		margin:auto;
+		padding:10px 20px;
+		box-sizing:border-box;
+	}
+		
+		input, textarea{ width:100%;
+			margin-bottom:10px;
+			padding:7px;
+			box-sizing:border-box;
+			border-radius:20px;
+			border: 1px solid #164225;
+			font-weight:bold;
+			font-family:Louis George Café Light, sans-serif;
+		}
+		
+		textarea{ max-width:100%;
+			min-width:100%;
+			max-height:100px;
+			min-height:100px;
+		}
+		
+		#boton{ width:40%;
+			background:#164225;
+			padding:10px;
+			color:#FFF;
+			font-weight:bold;
+			font-family:Louis George Café Light, sans-serif;
+		}
+		
+		#boton:hover{ cursor:pointer;
+			color:#164225;
+			font-weight:bold;
+			font-family:Louis George Café Light, sans-serif;
+			background:#FFF;
+		}
+		
+.Gubicacion{ width:100%;
+		height:560px;
+}
+
+  .ubi{ width:100%;
+  		margin-bottom:5%;
+  }
+  
+	.icon-maps{ font-size:40px;
+		color:#164225;
+		float:left;
+	}
+	
+	.utxt{ font-size:20px; 
+		padding:13px;
+		box-sizing:border-box;
+	}
+	
+  .Dir{ width:100%;
+  	margin-bottom:5%;
+  }
+  
+  .txD{font-size:20px; 
+  	   font-weight:bold;
+	   padding:13px;
+	   box-sizing:border-box;
+  }
+  
+.maps{ width:95%;
+margin-left:1%;}
+	
+	.peque{ display:none; }
+	.dos{ display:none; }
+	.tres{ display:none; }
+	.cuatro{ display:none; }
+	
+/*---ESTILOS RESPONSIVE---PEQUEÑO 500PX  ---ESTILOS RESPONSIVE---ESTILOS RESPONSIVE---*/
+@media screen and (min-width:360px) and (max-width:767px){
+
+#Contacto{ width:100%;
+	height:100px;
+	position:relative;
+	overflow:hidden;
+	z-index:-1000;
+}
+	
+  .Ctitle{ width:100%;
+		height:118px;
+		background-image:url(../imagenes%20web/contactopeque.jpg);
+		background-size:100%;
+		background-repeat:no-repeat;
+   }
+	
+	 .Ctitulo{ font-size:20px;
+		color:#FFF;
+		padding:11% 35%;
+	 }
+	 
+.sociales{ width:100%;
+ 		height:110px;
+		font-size:30px;
+		color:#164225;
+		text-align:center;
+		padding:13px  10px;
+		box-sizing:border-box;
+ }
+ 
+ 	.rd1{ width: 100%;
+		height: 80px;
+	}
+	
+		.tel{ width: 40%;
+			height: 80px;
+			float:left;
+		}
+		
+			.num{ font-size:17px;
+				font-weight:bold;
+				color:#000;
+				text-align:center;
+			}
+			
+		.mail{ width: 60%;
+			height: 80px;
+			float:right;
+		}
+		
+			.meil{ font-size:17px;
+				font-weight:bold;
+				color:#000;
+				text-align:center;
+			}
+		
+form{ width:100%;
+	height:318px;
+	margin:auto;
+	padding:25px 20px;
+	box-sizing:border-box;
+}
+
+	input, textarea{ width:100%;
+		height:40px;
+		margin-bottom:10px;
+		padding:7px;
+		box-sizing:border-box;
+		border-radius:20px;
+		border: 1px solid #164225;
+		font-weight:bold;
+		font-family:Louis George Café Light, sans-serif;
+	}
+	
+	textarea{ max-width:100%;
+		min-width:100%;
+		max-height:100px;
+		min-height:100px;
+	}
+	
+	#boton{ width:30%;
+		background:#164225;
+		padding:10px;
+		color:#FFF;
+		font-weight:bold;
+		font-family:Louis George Café Light, sans-serif;
+	}
+		
+	#boton:hover{ cursor:pointer;
+		color:#164225;
+		font-weight:bold;
+		font-family:Louis George Café Light, sans-serif;
+		background:#FFF;
+	}
+	
+.Gubicacion{ width:100%;
+		height:575px;
+		overflow:hidden;
+}
+
+  .ubi{ width:100%;
+  		margin-bottom:1%;
+  }
+  
+	.icon-maps{ font-size:40px;
+		color:#164225;
+		float:left;
+	}
+	
+	.utxt{ font-size:20px; 
+		padding:13px;
+		box-sizing:border-box;
+	}
+	
+  .Dir{ width:100%;
+  	margin-bottom:2%;
+  }
+  
+  .txD{font-size:20px; 
+  	   font-weight:bold;
+	   padding:13px;
+	   box-sizing:border-box;
+  }
+  
+.maps{ width:100%;
+	padding:0 1%;
+	box-sizing:border-box;
+}
+
+	.uno{ display:none;}
+	.peque{ display:block; }
+	.dos{ display:none; }
+	.tres{ display:none; }
+	.cuatro{ display:none; }
+
+
+} /*<--| AQUI FINALIZA EL RESPONSIVE PEQUEÑO 500PX*/
+
+/*---ESTILOS RESPONSIVE--- TABLET ---ESTILOS RESPONSIVE---ESTILOS RESPONSIVE---*/
+@media screen and (min-width:768px) and (max-width:1023px){
+
+#Contacto{ width:100%;
+	height:auto;
+	position:relative;
+	overflow:hidden;
+	z-index:-1000;
+}
+	
+  .Ctitle{ width:100%;
+		height:225px;
+		background-image:url(../imagenes%20web/contactotablet.jpg);
+		background-size:100%;
+   }
+	
+	 .Ctitulo{ font-size:35px;
+		color:#FFF;
+		padding:12% 36%;
+	 }
+	 
+	 
+.sociales{ width:100%;
+ 		height:110px;
+		font-size:40px;
+		color:#164225;
+		text-align:center;
+		padding:13px  10px;
+		box-sizing:border-box;
+ }
+ 
+ 	.rd1{ width: 100%;
+		height: 80px;
+	}
+	
+		.tel{ width: 40%;
+			height: 80px;
+			float:left;
+		}
+		
+			.num{ font-size:20px;
+				font-weight:bold;
+				color:#000;
+				text-align:center;
+			}
+			
+		.mail{ width: 60%;
+			height: 80px;
+			float:right;
+		}
+		
+			.meil{ font-size:20px;
+				font-weight:bold;
+				color:#000;
+				text-align:center;
+			}
+		
+form{ width:100%;
+	height:318px;
+	margin:auto;
+	padding:25px 20px;
+	box-sizing:border-box;
+}
+		
+	input, textarea{ width:100%;
+		height:45px;
+		margin-bottom:10px;
+		padding:7px;
+		box-sizing:border-box;
+		border-radius:20px;
+		border: 1px solid #164225;
+		font-weight:bold;
+		font-family:Louis George Café Light, sans-serif;
+	}
+	
+	textarea{ max-width:100%;
+		min-width:100%;
+		max-height:100px;
+		min-height:100px;
+	}
+	
+	#boton{ width:30%;
+		background:#164225;
+		padding:10px;
+		color:#FFF;
+		font-weight:bold;
+		font-family:Louis George Café Light, sans-serif;
+	}
+		
+	#boton:hover{ cursor:pointer;
+		color:#164225;
+		font-weight:bold;
+		font-family:Louis George Café Light, sans-serif;
+		background:#FFF;
+	}
+	
+.Gubicacion{ width:100%;
+		height:600px;
+		overflow:hidden;
+}
+
+  .ubi{ width:100%;
+  		height:70px;
+  		margin-bottom:2%;
+  }
+  
+	.icon-maps{ font-size:65px;
+		color:#164225;
+		float:left;
+	} 
+	
+	.utxt{ font-size:25px; 
+		padding:21px;
+		box-sizing:border-box;
+	}
+	
+  .Dir{ width:100%;
+  	margin:2%;
+  }
+  
+  .txD{font-size:25px; 
+  	   font-weight:bold;
+	   padding:13px;
+	   box-sizing:border-box;
+  }
+  
+.maps{ width:100%;
+	padding:0 1%;
+	box-sizing:border-box;
+}
+	.uno{ display:none; }
+	.peque{ display:none; }
+	.dos{ display:block; }
+	.tres{ display:none; }
+	.cuatro{ display:none; }
+	
+} /*<--| AQUIE FINALIZA EL RESPONSIVE TABLET */
+
+/*---ESTILOS RESPONSIVE--- PORTATIL---ESTILOS RESPONSIVE---ESTILOS RESPONSIVE---*/
+@media screen and (min-width:1024px) and (max-width:1279px){
+#Contacto{ width:100%;
+	height:auto;
+	position:relative;
+	overflow:hidden;
+	z-index:-1000;
+}
+	
+  .Ctitle{ width:100%;
+		height:275px;
+		background-image:url(../imagenes%20web/contactoportatil.jpg);
+		background-size:100%;
+   }
+	
+	 .Ctitulo{ font-size:50px;
+		color:#FFF;
+		padding:10.8% 36%;
+	 }
+	 
+.sociales{ width:31%;
+ 		height:300px;
+		font-size:40px;
+		text-align:center;
+		box-sizing:border-box;
+		float:left;
+ }
+	
+	.rd1{ width:100%;
+		height:280px;
+		padding-top:30px;
+		box-sizing:border-box;	}
+	
+		.tel{ width:100%;
+			height: 100px;
+		}
+		
+			.num{ font-size:20px;
+				font-weight:bold;
+				color:#000;
+				text-align:center;
+				padding-top:5px;
+				box-sizing:border-box;
+			}
+			
+		.mail{ width:100%;
+			height: 80px;
+		}
+		
+			.meil{ font-size:20px;
+				font-weight:bold;
+				color:#000;
+				text-align:center;
+				padding-top:5px;
+				box-sizing:border-box;
+			}
+	
+		
+form{ width:33%;
+	height:300px;
+	margin-left:0px;
+	padding:1% 2%;
+	box-sizing:border-box;
+	float:left;
+}
+
+	input, textarea{ width:100%;
+		height:45px;
+		margin-bottom:10px;
+		padding:7px;
+		box-sizing:border-box;
+		border-radius:20px;
+		border: 1px solid #164225;
+		font-weight:bold;
+		font-family:Louis George Café Light, sans-serif;
+	}
+	
+	textarea{ max-width:100%;
+		min-width:100%;
+		max-height:100px;
+		min-height:100px;
+	}
+	
+	#boton{ width:30%;
+		background:#164225;
+		padding:10px;
+		color:#FFF;
+		font-weight:bold;
+		font-family:Louis George Café Light, sans-serif;
+	}
+		
+	#boton:hover{ cursor:pointer;
+		color:#164225;
+		font-weight:bold;
+		font-family:Louis George Café Light, sans-serif;
+		background:#FFF;
+	}
+	
+.Gubicacion{ width:36%;
+		height:300px;
+		overflow:hidden;
+		float:right;
+}
+  
+  .ubi{ width:100%;
+  		height:70px;
+  		margin-bottom:-4%;
+  }
+  
+	.icon-maps{ font-size:60px;
+		color:#164225;
+		float:left;
+	} 
+	
+	.utxt{ font-size:20px; 
+		padding:5%;
+		box-sizing:border-box;
+	}
+	
+  .Dir{ width:100%;
+  	margin:4%;
+  }
+  
+  .txD{font-size:17px; 
+  	   font-weight:bold;
+	   padding:0;
+	   box-sizing:border-box;
+  }
+  
+  .maps{ width:100%;
+	padding:0 3%;
+	box-sizing:border-box;
+}
+	.uno{ display:none; }
+	.peque{display:none;}
+	.dos{ display:none; }
+	.tres{ display:block; }
+	.cuatro{ display:none; }
+
+} /*<--| AQUIE FINALIZA EL RESPONSIVE PORTATIL */
+
+/*---ESTILOS RESPONSIVE--- PC ESCRITORIO---ESTILOS RESPONSIVE---ESTILOS RESPONSIVE---*/
+@media screen and (min-width:1280px) and (max-width:1439px){
+
+#Contacto{ width:100%;
+	height:auto;
+	position:relative;
+	overflow:hidden;
+	z-index:-1000;
+}
+	
+  .Ctitle{ width:100%;
+		height:300px;
+		background-image:url(../imagenes%20web/contacto.jpg);
+		background-size:100%;
+   }
+	
+	 .Ctitulo{ font-size:60px;
+		color:#FFF;
+		padding:9% 36%;
+	 }
+	 
+.sociales{ width:31%;
+ 		height:300px;
+		font-size:40px;
+		text-align:center;
+		box-sizing:border-box;
+		float:left;
+ }
+	
+	.rd1{ width:100%;
+		height:280px;
+		padding-top:30px;
+		box-sizing:border-box;
+	}
+	
+		.tel{ width:100%;
+			height: 100px;
+		}
+		
+			.num{ font-size:20px;
+				font-weight:bold;
+				color:#000;
+				text-align:center;
+				padding-top:5px;
+				box-sizing:border-box;
+			}
+			
+		.mail{ width:100%;
+			height: 80px;
+		}
+		
+			.meil{ font-size:20px;
+				font-weight:bold;
+				color:#000;
+				text-align:center;
+				padding-top:5px;
+				box-sizing:border-box;
+			}
+			
+form{ width:33%;
+	height:350px;
+	margin-left:0px;
+	padding:2%;
+	box-sizing:border-box;
+	float:left;
+}
+
+	input, textarea{ width:100%;
+		height:45px;
+		margin-bottom:10px;
+		padding:7px;
+		box-sizing:border-box;
+		border-radius:20px;
+		border: 1px solid #164225;
+		font-weight:bold;
+		font-family:Louis George Café Light, sans-serif;
+	}
+	
+	textarea{ max-width:100%;
+		min-width:100%;
+		max-height:100px;
+		min-height:100px;
+	}
+	
+	#boton{ width:30%;
+		background:#164225;
+		padding:10px;
+		color:#FFF;
+		font-weight:bold;
+		font-family:Louis George Café Light, sans-serif;
+	}
+		
+	#boton:hover{ cursor:pointer;
+		color:#164225;
+		font-weight:bold;
+		font-family:Louis George Café Light, sans-serif;
+		background:#FFF;
+	}
+	
+.Gubicacion{ width:36%;
+		height:350px;
+		overflow:hidden;
+		float:right;
+}
+  
+  .ubi{ width:100%;
+  		height:70px;
+  		margin-bottom:-4%;
+  }
+  
+	.icon-maps{ font-size:60px;
+		color:#164225;
+		float:left;
+	} 
+	
+	.utxt{ font-size:20px; 
+		padding:21px;
+		box-sizing:border-box;
+	}
+	
+  .Dir{ width:75%;
+  	margin:4%;
+  }
+  
+  .txD{font-size:17px; 
+  	   font-weight:bold;
+	   padding:0 4%;
+	   box-sizing:border-box;
+  }
+  
+  .maps{ width:100%;
+	padding:0 6%;
+	box-sizing:border-box;
+}
+	.uno{ display:none; }
+	.peque{display:none;}
+	.dos{ display:none; }
+	.tres{ display:none; }
+	.cuatro{ display:block; }
+
+} /*<--| AQUIE FINALIZA EL RESPONSIVE PC ESCRITORIO */
+
+/*---ESTILOS RESPONSIVE--- 1440 GRANDE---ESTILOS RESPONSIVE---ESTILOS RESPONSIVE---*/
+@media screen and (min-width:1440px) and (max-width:1600px){
+
+#Contacto{ width:100%;
+	height:auto;
+	position:relative;
+	overflow:hidden;
+	z-index:-1000;
+}
+	
+  .Ctitle{ width:100%;
+		height:300px;
+		background-image:url(../imagenes%20web/contacto.jpg);
+		background-size:100%;
+   }
+	
+	 .Ctitulo{ font-size:60px;
+		color:#FFF;
+		padding:8% 38%;
+	 }
+	 
+.sociales{ width:28%;
+ 		height:300px;
+		font-size:40px;
+		text-align:center;
+		box-sizing:border-box;
+		float:left;
+ }
+	
+	.rd1{ width:100%;
+		height:280px;
+		padding-top:50px;
+		box-sizing:border-box;
+	}
+	
+		.tel{ width:100%;
+			height: 100px;
+		}
+		
+			.num{ font-size:20px;
+				font-weight:bold;
+				color:#000;
+				text-align:center;
+				padding-top:5px;
+				box-sizing:border-box;
+			}
+			
+		.mail{ width:100%;
+			height: 80px;
+		}
+		
+			.meil{ font-size:20px;
+				font-weight:bold;
+				color:#000;
+				text-align:center;
+				padding-top:5px;
+				box-sizing:border-box;
+			}
+		
+form{ width:35%;
+	height:350px;
+	margin-left:0px;
+	padding:2% 1%;
+	box-sizing:border-box;
+	float:left;
+}
+
+	input, textarea{ width:100%;
+		height:55px;
+		margin-bottom:10px;
+		padding:7px;
+		box-sizing:border-box;
+		border-radius:20px;
+		border: 1px solid #164225;
+		font-weight:bold;
+		font-family:Louis George Café Light, sans-serif;
+	}
+	
+	textarea{ max-width:100%;
+		min-width:100%;
+		max-height:100px;
+		min-height:100px;
+	}
+	
+	#boton{ width:30%;
+		height:45px;
+		background:#164225;
+		padding:10px;
+		color:#FFF;
+		font-weight:bold;
+		font-family:Louis George Café Light, sans-serif;
+	}
+		
+	#boton:hover{ cursor:pointer;
+		color:#164225;
+		font-weight:bold;
+		font-family:Louis George Café Light, sans-serif;
+		background:#FFF;
+	}
+
+.Gubicacion{ width:37%;
+		height:350px;
+		overflow:hidden;
+		float:right;
+}
+  
+  .ubi{ width:100%;
+  		height:70px;
+  		margin-bottom:-1%;
+		margin-left:6%;
+  }
+  
+	.icon-maps{ font-size:60px;
+		color:#164225;
+		float:left;
+	} 
+	
+	.utxt{ font-size:25px; 
+		padding:4%;
+		box-sizing:border-box;
+	}
+	
+  .Dir{ width:75%;
+  	margin:1% 1% 1% 13%;
+  }
+  
+  .txD{font-size:20px; 
+  	   font-weight:bold;
+	   padding:0;
+	   box-sizing:border-box;
+  }
+  
+  .maps{ width:100%;
+	padding:0 12%;
+	box-sizing:border-box;
+}
+	.uno{ display:none; }
+	.peque{display:none;}
+	.dos{ display:none; }
+	.tres{ display:none; }
+	.cuatro{ display:block; }
+
+} /*<--| AQUIE FINALIZA EL RESPONSIVE 1440 GRANDE */

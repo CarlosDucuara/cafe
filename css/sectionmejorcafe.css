@@ -1,0 +1,180 @@
+@charset "utf-8";
+* {margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6 {
+font-family:A Pompadour Bold Sample, sans-serif;}
+
+p { font-family:Louis George Café Light, sans-serif;}
+
+/* --- AQUI COMIENZA EL SECTION -- */
+
+.Mcafe { width:100%;
+	height:74vh;
+	background-image:url(../imagenes%20web/mejorcel.jpg);
+	background-size:100%;
+	position:relative;
+	overflow:hidden;
+	margin:10px 0;
+	z-index:-950;
+}
+   
+  .Mdescripcion { width:68%;
+  	height:100%;
+  	position:absolute;
+  	top:0;
+	left:25%;
+	color:#FFF;
+	background:rgba(43,13,14,0.93);
+   }
+   
+   .Mtitulo { font-size:23px;
+    	text-align:left;
+		margin:20px 15px;
+	}
+   
+   .Mtexto { font-size:17px;
+		text-align:justify;
+		margin:20px 15px;
+	}
+
+/*---ESTILOS RESPONSIVE---PEQUEÑO 500PX  ---ESTILOS RESPONSIVE---ESTILOS RESPONSIVE---*/
+@media screen and (min-width:360px) and (max-width:767px){
+
+.Mcafe { height:65vh;
+  		margin:25px 0;
+		background-image:url(../imagenes%20web/mejorpeque.jpg);
+		background-size:100%;
+  }
+  
+  .Mdescripcion { width:67%;
+   		height:100%;
+	}
+   
+   .Mtitulo { font-size:17px;
+   		margin:0 38px;
+		margin-top:45px;
+		margin-bottom:20px;
+   }
+   
+   .Mtexto { font-size:14px;
+   		margin:0 38px;
+		margin-bottom:50px;
+   }
+
+} /*<--| AQUI FINALIZA EL PEQUEÑO 500PX --*/
+
+/*---ESTILOS RESPONSIVE--- TABLET ---ESTILOS RESPONSIVE---ESTILOS RESPONSIVE---*/
+@media screen and (min-width:768px) and (max-width:1023px){
+
+  .Mcafe { height:65vh;
+  		margin:25px 0;
+		background-image:url(../imagenes%20web/mejortablet.jpg);
+		background-size:100%;
+  }
+   
+   .Mdescripcion { width:67%;
+   		height:100%;
+	}
+   
+   .Mtitulo { font-size:35px;
+   		margin:0 63px;
+		margin-top:50px;
+		margin-bottom:25px;
+   }
+   
+   .Mtexto { font-size:22px;
+   		margin:0 63px;
+		margin-bottom:50px;
+   }
+	
+} /*<---| AQUI FINALIZA EL MEDIA TABLET --------- */
+
+
+/*--- RESPONSIVE --- PORTATIL --- RESPONSIVE --- RESPONSIVE --- RESPONSIVE ---*/
+@media screen and (min-width:1024px) and (max-width:1279px) {
+	
+.Mcafe { height:100vh; 
+	margin:30px 0;
+	background-image:url(../imagenes%20web/mejorportatil.jpg);
+	background-size:100%;
+	}
+
+	/*.Mfoto{ height:140vh;
+		margin-top:-25%;
+	}*/
+	
+	.Mdescripcion { width:65%;}
+	
+	.Mtitulo { font-size: 45px;
+		margin:0 63px;
+		margin-top:130px;
+		margin-bottom:30px;
+	}
+	
+	.Mtexto { font-size: 25px;
+		margin:0 63px;
+		margin-bottom:130px;
+	}
+
+} /*<---| AQUI FINALIZA EL MEDIA PORTATIL --------- */
+
+
+/*--- RESPONSIVE --- PC ESCRITORIO --- RESPONSIVE --- RESPONSIVE --- RESPONSIVE ---*/
+@media screen and (min-width:1280px) and (max-width:1439px) {
+
+.Mcafe { width:100%;
+	height:100vh;
+	margin:40px 0;
+	background-image:url(../imagenes%20web/mejor.jpg);
+	background-size:100%;
+	}
+
+  /*.Mfoto { height:180vh;
+	  margin-top:-35%;
+   }*/
+   
+   .Mdescripcion { width:50%;
+   	  left:45%;
+   }
+   
+   .Mtitulo { font-size:50px;
+   	  margin:0 70px;
+	  margin-top:110px;
+	  margin-bottom:30px;
+   }
+   
+   .Mtexto { font-size:25px;
+   	  margin:0 70px;
+   }
+ 
+} /*<---| AQUI FINALIZA EL MEDIA PC ESCRITORIO --------- */
+
+
+/*--- RESPONSIVE --- 1440PX GRANDE --- RESPONSIVE --- RESPONSIVE --- RESPONSIVE ---*/
+@media screen and (min-width:1440px) and (max-width:1600px) {
+
+.Mcafe { width:100%;
+	height:100vh;
+	margin:45px 0;
+	background-image:url(../imagenes%20web/mejorgrande.jpg);
+	background-size:100%;
+}
+
+  /*.Mfoto { height:200vh;
+  	margin-top:-45%;
+   }*/
+   
+   .Mdescripcion { width:60%;
+   	  left:35%;
+   }
+   
+   .Mtitulo { font-size:60px;
+   	  margin:0 75px;
+	  margin-top:210px;
+	  margin-bottom:60px;
+   }
+   
+   .Mtexto { font-size:40px;
+   	  margin:0 75px;
+   }
+
+} /*<---| AQUI FINALIZA EL MEDIA 1440 GRANDE --------- */

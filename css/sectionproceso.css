@@ -1,0 +1,813 @@
+@charset "utf-8";
+* {margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6 {
+font-family:A Pompadour Bold Sample, sans-serif;}
+
+p { font-family:Louis George Café Light, sans-serif;}
+
+/*------ ESTILOS DE SECCION PROCESO ------*/
+
+#Proceso{ width:100%;
+	height:auto;
+}
+
+	.Ptitle { width:100%;
+		height:118px;
+		background-image:url(../imagenes%20web/procesocel.jpg);
+		background-size:100%;
+	}
+	
+		.Ptitulo { font-size:20px;
+			color:#FFF;
+			padding:15% 34%;
+	    }
+	
+/*RECOLECCION*/
+.recoleccion{ width:100%;
+		height:auto;
+}
+	
+		.recfoto{ width:200px;
+			border-radius:160px;
+			margin:10% 18%;
+			box-shadow:0px 0px 25px #000;
+		}
+		
+	.cajarec{ width:90%;
+		height:auto;
+		margin:0 14px;
+	}
+		
+		.rectitulo{ font-size:17px;
+			text-align:center;
+			margin-bottom:15px;
+		}
+		
+		.rectexto{ font-size:14px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+
+/*BENEFICIO*/
+.beneficio{ width:100%;
+		height:auto;
+		background:rgba(204,204,204,0.40);
+	}
+	
+		.benfoto{ width:200px;
+			border-radius:160px;
+			margin:10% 18%;
+			box-shadow:0 0 25px #000;
+		}
+		
+	.cajaben{ width:90%;
+		height:auto;
+		margin:0 14px;
+	}
+		
+		.bentitulo{ font-size:17px;
+			text-align:center;
+			margin-bottom:15px;
+		}
+		
+		.bentexto{ font-size:14px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+
+/*TRILLA*/
+.trilla{ width:100%;
+	height:auto;
+}
+	
+		.trifoto{ width:200px;
+			border-radius:170px;
+			margin:10% 18%;
+			box-shadow:0 0 25px #000;
+		}
+		
+	.cajatri{ width:90%;
+		height:auto;
+		margin:0 14px;
+	}
+		
+		.trititulo{ font-size:17px;
+			text-align:center;
+			margin-bottom:15px;
+		}
+		
+		.tritexto{ font-size:14px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+
+/*TOSTION*/
+.tostion{ width:100%;
+	height:auto;
+	background:rgba(204,204,204,0.40);
+}
+
+		.tosfoto{ width:200px;
+			border-radius:160px;
+			margin:10% 18%;
+			box-shadow:0 0 25px #000;
+		}
+		
+	.cajatos{ width:90%;
+		height:auto;
+		margin:0 14px;
+	}
+		
+		.tostitulo{ font-size:17px;
+			text-align:center;
+			margin-bottom:15px;
+		}
+		
+		.tostexto{ font-size:14px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+		
+/*---ESTILOS RESPONSIVE---PEQUEÑO 500PX  ---ESTILOS RESPONSIVE---ESTILOS RESPONSIVE---*/
+@media screen and (min-width:360px) and (max-width:767px){
+
+#Proceso{ width:100%;
+	height:auto;
+}
+
+	.Ptitle { width:100%;
+		height:118px;
+		background-image:url(../imagenes%20web/procesopeque.jpg);
+		background-size:100%;
+		background-repeat:no-repeat;
+	}
+	
+		.Ptitulo { font-size:20px;
+			color:#FFF;
+			padding:13% 38%;
+	    }
+		
+/*RECOLECCION*/
+.recoleccion{ width:100%;
+		height:auto;
+}
+	
+	.recfoto{ width:200px;
+			border-radius:160px;
+			margin:8% 22%;
+			box-shadow:0px 0px 25px #000;
+	}
+	
+	.cajarec{ width:90%;
+		height:auto;
+		margin:0 14px;
+	}
+		
+		.rectitulo{ font-size:20px;
+			text-align:center;
+			margin-bottom:15px;
+		}
+		
+		.rectexto{ font-size:17px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+		
+/*BENEFICIO*/
+.beneficio{ width:100%;
+		height:auto;
+		background:rgba(204,204,204,0.40);
+	}
+	
+		.benfoto{ width:200px;
+			border-radius:160px;
+			margin:8% 22%;
+			box-shadow:0 0 25px #000;
+		}
+		
+	.cajaben{ width:90%;
+		height:auto;
+		margin:0 14px;
+	}
+		
+		.bentitulo{ font-size:20px;
+			text-align:center;
+			margin-bottom:15px;
+		}
+		
+		.bentexto{ font-size:17px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+
+/*TRILLA*/
+.trilla{ width:100%;
+	height:auto;
+}
+	
+		.trifoto{ width:200px;
+			border-radius:170px;
+			margin:8% 22%;
+			box-shadow:0 0 25px #000;
+		}
+		
+	.cajatri{ width:90%;
+		height:auto;
+		margin:0 14px;
+	}
+		
+		.trititulo{ font-size:20px;
+			text-align:center;
+			margin-bottom:15px;
+		}
+		
+		.tritexto{ font-size:17px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+
+/*TOSTION*/
+.tostion{ width:100%;
+	height:auto;
+	background:rgba(204,204,204,0.40);
+}
+
+		.tosfoto{ width:200px;
+			border-radius:160px;
+			margin:8% 22%;
+			box-shadow:0 0 25px #000;
+		}
+		
+	.cajatos{ width:90%;
+		height:auto;
+		margin:0 14px;
+	}
+		
+		.tostitulo{ font-size:20px;
+			text-align:center;
+			margin-bottom:15px;
+		}
+		
+		.tostexto{ font-size:17px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+
+} /*<--| AQUI FINALIZA EL RESPONSIVE PEQUEÑO 500PX */
+
+/*---ESTILOS RESPONSIVE--- TABLET ---ESTILOS RESPONSIVE---ESTILOS RESPONSIVE---*/
+@media screen and (min-width:768px) and (max-width:1023px){
+
+#Proceso{ width:100%;
+	height:auto;
+}
+
+	.Ptitle { width:100%;
+		height:225px;
+		background-image:url(../imagenes%20web/procesotablet.jpg);
+		background-size:100%;
+	}
+	
+		.Ptitulo { font-size:35px;
+			color:#FFF;
+			padding:12% 38%;
+	    }
+		
+/*RECOLECCION TABLET*/
+.recoleccion{ width:100%;
+		height:270px;
+}
+	
+		.recfoto{ width:200px;
+			border-radius:160px;
+			margin:4.7% 6%;
+			box-shadow:0px 0px 25px #000;
+			float:left;
+		}
+		
+	.cajarec{ width:50%;
+		height:auto;
+		margin:59px 45px 59px 27px;
+		float:right;
+	}
+		
+		.rectitulo{ font-size:20px;
+			text-align:left;
+			margin-bottom:15px;
+		}
+		
+		.rectexto{ font-size:17px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+		
+/*BENEFICIO TABLET*/
+.beneficio{ width:100%;
+		height:270px;
+		background:rgba(204,204,204,0.40);
+	}
+	
+		.benfoto{ width:200px;
+			border-radius:160px;
+			margin:4.7% 6%;
+			box-shadow:0 0 25px #000;
+			float:right;
+		}
+		
+	.cajaben{ width:50%;
+		height:auto;
+		margin:37px 15px 38px 45px;
+		float:left;
+	}
+		
+		.bentitulo{ font-size:20px;
+			text-align:left;
+			margin-bottom:15px;
+		}
+		
+		.bentexto{ font-size:17px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+
+/*TRILLA TABLET*/
+.trilla{ width:100%;
+	height:270px;
+}
+	
+		.trifoto{ width:200px;
+			border-radius:170px;
+			margin:4.7% 6%;
+			box-shadow:0 0 25px #000;
+			float:left;
+		}
+		
+		.cajatri{ width:50%;
+			height:auto;
+			margin:59px 45px 59px 27px;
+			float:right;
+		}
+		
+			.trititulo{ font-size:20px;
+				text-align:left;
+				margin-bottom:15px;
+			}
+		
+			.tritexto{ font-size:17px;
+				font-weight:bold;
+				text-align:justify;
+				padding-bottom:30px;
+			}
+
+
+/*TOSTION TABLET*/
+.tostion{ width:100%;
+	height:270px;
+	background:rgba(204,204,204,0.40);
+}
+
+	.tosfoto{ width:200px;
+			margin:4.7% 6%;
+			border-radius:160px;
+			box-shadow:0 0 25px #000;
+			float:right;
+	}
+		
+	.cajatos{ width:50%;
+		height:auto;
+		margin:58px 10px 59px 45px;
+		float:left;
+	}
+		
+		.tostitulo{ font-size:20px;
+			text-align:left;
+			margin-bottom:15px;
+		}
+		
+		.tostexto{ font-size:17px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+
+} /*<--| AQUI FINALIZA EL RESPONISVE TABLE*/
+
+/*---ESTILOS RESPONSIVE--- PORTATIL---ESTILOS RESPONSIVE---ESTILOS RESPONSIVE---*/
+@media screen and (min-width:1024px) and (max-width:1279px){
+
+#Proceso{ width:100%;
+	height:auto;
+}
+	.Ptitle { width:100%;
+		height:275px;
+		background-image:url(../imagenes%20web/procesoportatil.jpg);
+		background-size:100%;
+	}
+	
+		.Ptitulo { font-size:50px;
+			color:#FFF;
+			padding:10.8% 37%;
+	    }
+		
+/*RECOLECCION PORTATIL*/
+.recoleccion{ width:100%;
+		height:350px;
+}
+	
+	.recfoto{ width:250px;
+			border-radius:160px;
+			margin:5%;
+			box-shadow:0px 0px 25px #000;
+			float:left;
+	}
+		
+	.cajarec{ width:50%;
+		height:auto;
+		margin:86px 50px 86px 27px;
+		float:right;
+	}
+		
+		.rectitulo{ font-size:30px;
+			text-align:left;
+			margin-bottom:15px;
+		}
+		
+		.rectexto{ font-size:20px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+		
+/*BENEFICIO PORTATIL*/
+.beneficio{ width:100%;
+		height:350px;
+		background:rgba(204,204,204,0.40);
+	}
+	
+	.benfoto{ width:250px;
+			border-radius:160px;
+			margin:5%;
+			box-shadow:0 0 25px #000;
+			float:right;
+	}
+		
+	.cajaben{ width:50%;
+		height:auto;
+		margin:48px 15px 48px 50px;
+		float:left;
+	}
+		
+		.bentitulo{ font-size:30px;
+			text-align:left;
+			margin-bottom:15px;
+		}
+		
+		.bentexto{ font-size:20px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+
+/*TRILLA PORTATIL*/
+.trilla{ width:100%;
+	height:350px;
+}
+	
+	.trifoto{ width:250px;
+			border-radius:170px;
+			margin:5%;
+			box-shadow:0 0 25px #000;
+			float:left;
+		}
+		
+	.cajatri{ width:50%;
+		height:auto;
+		margin:86px 50px 86px 27px;
+		float:right;
+	   }
+	   
+	   .trititulo{ font-size:30px;
+				text-align:left;
+				margin-bottom:15px;
+		}
+		
+		.tritexto{ font-size:20px;
+				font-weight:bold;
+				text-align:justify;
+				padding-bottom:30px;
+		}
+
+/*TOSTION PORTATIL*/
+.tostion{ width:100%;
+	height:350px;
+	background:rgba(204,204,204,0.40);
+}
+
+	.tosfoto{ width:250px;
+			border-radius:160px;
+			box-shadow:0 0 25px #000;
+			margin:5%;;
+			float:right;
+	}
+		
+	.cajatos{ width:50%;
+		height:auto;
+		margin:86px 10px 86px 45px;
+		float:left;
+	}
+		
+		.tostitulo{ font-size:30px;
+			text-align:left;
+			margin-bottom:15px;
+		}
+		
+		.tostexto{ font-size:20px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+	
+} /*<--| AQUI FINALIZA EL RESPONISVE PORTATIL*/
+
+/*---ESTILOS RESPONSIVE--- PC ESCRITORIO---ESTILOS RESPONSIVE---ESTILOS RESPONSIVE---*/
+@media screen and (min-width:1280px) and (max-width:1439px){
+
+#Proceso{ width:100%;
+	height:auto;
+}
+	.Ptitle { width:100%;
+		height:300px;
+		background-image:url(../imagenes%20web/proceso.jpg);
+		background-size:100%;
+	}
+	
+		.Ptitulo { font-size:60px;
+			color:#FFF;
+			padding:9% 38%;
+	    }
+
+/*RECOLECCION PC ESCRITORIO*/
+.recoleccion{ width:100%;
+		height:437px;
+}
+	
+	.recfoto{ width:340px;
+			border-radius:160px;
+			margin:4% 6%;
+			box-shadow:0px 0px 25px #000;
+			float:left;
+	}
+		
+	.cajarec{ width:50%;
+		height:auto;
+		margin:97px 85px 97px 27px;
+		float:right;
+	}
+		
+		.rectitulo{ font-size:35px;
+			text-align:left;
+			margin-bottom:15px;
+		}
+		
+		.rectexto{ font-size:25px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+		
+/*BENEFICIO PC ESCRITORIO*/
+.beneficio{ width:100%;
+		height:437px;
+		background:rgba(204,204,204,0.40);
+	}
+	
+	.benfoto{ width:340px;
+			border-radius:160px;
+			margin:4% 6%;
+			box-shadow:0 0 25px #000;
+			float:right;
+	}
+		
+	.cajaben{ width:50%;
+		height:auto;
+		margin:85px 15px 85px 85px;
+		float:left;
+	}
+		
+		.bentitulo{ font-size:35px;
+			text-align:left;
+			margin-bottom:15px;
+		}
+		
+		.bentexto{ font-size:25px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+		
+/*TRILLA PORTATIL*/
+.trilla{ width:100%;
+	height:437px;
+}
+
+	.trifoto{ width:340px;
+			border-radius:170px;
+			margin:4% 6%;
+			box-shadow:0 0 25px #000;
+			float:left;
+		}
+		
+	.cajatri{ width:50%;
+		height:auto;
+		margin:97px 85px 97px 27px;
+		float:right;
+	   }
+	   
+	   .trititulo{ font-size:35px;
+			text-align:left;
+			margin-bottom:15px;
+		}
+		
+		.tritexto{ font-size:25px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+		
+/*TOSTION PORTATIL*/
+.tostion{ width:100%;
+	height:437px;
+	background:rgba(204,204,204,0.40);
+}
+
+	.tosfoto{ width:340px;
+			border-radius:160px;
+			box-shadow:0 0 25px #000;
+			margin:3% 6%;
+			float:right;
+	}
+		
+	.cajatos{ width:50%;
+		height:auto;
+		margin:85px 15px 85px 85px;
+		float:left;
+	}
+		
+		.tostitulo{ font-size:35px;
+			text-align:left;
+			margin-bottom:15px;
+		}
+		
+		.tostexto{ font-size:25px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+} /*<--| AQUI FINALIZA EL RESPONISVE PC ESCRITORIO*/
+
+/*---ESTILOS RESPONSIVE--- 1440 GRANDE---ESTILOS RESPONSIVE---ESTILOS RESPONSIVE---*/
+@media screen and (min-width:1440px) and (max-width:1600px){
+	
+#Proceso{ width:100%;
+	height:auto;
+}
+	.Ptitle { width:100%;
+		height:300px;
+		background-image:url(../imagenes%20web/proceso.jpg);
+		background-size:100%;
+	}
+	
+		.Ptitulo { font-size:60px;
+			color:#FFF;
+			padding:8% 39%;
+	    }
+
+/*RECOLECCION PC ESCRITORIO*/
+.recoleccion{ width:100%;
+		height:437px;
+}
+	
+	.recfoto{ width:340px;
+			border-radius:160px;
+			margin:3% 6%;
+			box-shadow:0px 0px 25px #000;
+			float:left;
+	}
+		
+	.cajarec{ width:50%;
+		height:auto;
+		margin:97px 85px 97px 27px;
+		float:right;
+	}
+		
+		.rectitulo{ font-size:35px;
+			text-align:left;
+			margin-bottom:15px;
+		}
+		
+		.rectexto{ font-size:25px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+		
+/*BENEFICIO PC ESCRITORIO*/
+.beneficio{ width:100%;
+		height:437px;
+		background:rgba(204,204,204,0.40);
+	}
+	
+	.benfoto{ width:340px;
+			border-radius:160px;
+			margin:3% 6%;
+			box-shadow:0 0 25px #000;
+			float:right;
+	}
+		
+	.cajaben{ width:50%;
+		height:auto;
+		margin:85px 15px 85px 85px;
+		float:left;
+	}
+		
+		.bentitulo{ font-size:35px;
+			text-align:left;
+			margin-bottom:15px;
+		}
+		
+		.bentexto{ font-size:25px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+		
+/*TRILLA PORTATIL*/
+.trilla{ width:100%;
+	height:437px;
+}
+
+	.trifoto{ width:340px;
+			border-radius:170px;
+			margin:3% 6%;
+			box-shadow:0 0 25px #000;
+			float:left;
+		}
+		
+	.cajatri{ width:50%;
+		height:auto;
+		margin:97px 85px 97px 27px;
+		float:right;
+	   }
+	   
+	   .trititulo{ font-size:35px;
+			text-align:left;
+			margin-bottom:15px;
+		}
+		
+		.tritexto{ font-size:25px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+		
+/*TOSTION PORTATIL*/
+.tostion{ width:100%;
+	height:437px;
+	background:rgba(204,204,204,0.40);
+}
+
+	.tosfoto{ width:340px;
+			border-radius:160px;
+			box-shadow:0 0 25px #000;
+			margin:3% 6%;
+			float:right;
+	}
+		
+	.cajatos{ width:50%;
+		height:auto;
+		margin:85px 15px 85px 85px;
+		float:left;
+	}
+		
+		.tostitulo{ font-size:35px;
+			text-align:left;
+			margin-bottom:15px;
+		}
+		
+		.tostexto{ font-size:25px;
+			font-weight:bold;
+			text-align:justify;
+			padding-bottom:30px;
+		}
+	
+} /*<--| AQUI FINALIZA EL RESPONISVE 1440 GRANDE*/
